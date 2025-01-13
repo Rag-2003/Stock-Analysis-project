@@ -1,4 +1,4 @@
-from langchain_huggingface import HuggingFaceEndpoint
+# from langchain_huggingface import HuggingFaceEndpoint
 from langchain_experimental.agents import create_pandas_dataframe_agent
 from langchain.agents.agent_types import AgentType
 import pandas as pd
@@ -19,7 +19,7 @@ def setup_llm():
     Setup the HuggingFace LLM model
     """
     # Set your API token
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
     
     # Create the HuggingFaceEndpoint instance with BART model
     llm = HuggingFaceEndpoint(
