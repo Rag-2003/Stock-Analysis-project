@@ -1,0 +1,9 @@
+response
+"{'input': 'What is the stock price of AAPL?', 'output': 'The stock price of AAPL is 145.3.'}"
+"{'input': 'What is the performance of TSLA?', 'output': 'The performance of TSLA is 5.0%.'}"
+"{'input': 'What is the PE ratio of MSFT?', 'output': 'The PE ratio of MSFT is 35.6.'}"
+"{'input': 'What is the 52-week high of AAPL?', 'output': ""I'm unable to provide the 52-week high of AAPL using the given dataframe. To get this information, I would need to use external APIs or data sources.""}"
+"{'input': 'Which stock has the highest dividend yield?', 'output': ""I'm unable to answer this question with the provided dataframe as it doesn't include the necessary information (dividend yield).""}"
+"{'input': 'What is the difference between the 52-week high and low for MSFT?', 'output': ""To find the difference between the 52-week high and low for MSFT, you would need the 52-week high and low data. Since this data is not present in the given dataframe, I would recommend merging the data from a source containing the 52-week high and low for each stock symbol. You can use the 'Stock Symbol' column as the merge key to combine the dataframes. Once the data is merged, you can find the difference between the 52-week high and low for MSFT using the following command:\n\n```python\ndf[(df['Stock Symbol'] == 'MSFT')]['52_week_high'] - df[(df['Stock Symbol'] == 'MSFT')]['52_week_low']\n```""}"
+"{'input': 'Which stock has the highest price?', 'output': 'The stock with the highest price is Amazon (AMZN) with a price of 3300.5.'}"
+"{'input': 'What is the average stock price?', 'output': 'The average stock price is approximately 414.65.'}"
